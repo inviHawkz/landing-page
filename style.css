@@ -3,6 +3,12 @@ body {
     flex-direction: column;
 }
 
+.profile-img {
+    border-radius: 3%;
+    width: 150px;
+    height: 150px;
+}
+
 .text-hero {
     color: #F9FAF8;
     font-size: 48px;
