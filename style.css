@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text-link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.text-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button-02 {
+    border: 2px solid #E5E7EB;
+}
+
+.place-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e9e9e;
+    min-width: 460px;
+    min-height: 200px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 70px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.section-hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.section-1,
+.footer {
+    background-color: #1F2937;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.text-information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sub-text {
+    max-width: 140px;
+    text-align: center;
+    padding: 10px 0 70px 0;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author-name {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3882F6;
+    margin: 100px 150px;
+    padding: 30px 80px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
